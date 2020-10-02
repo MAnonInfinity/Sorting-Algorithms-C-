@@ -7,7 +7,7 @@ int A[1000], n;
 void mergeIt(int, int, int);
 
 void mergeSort(int lb, int ub){
-    if (lb<ub){
+    if (lb < ub){
         int mid=(lb+ub)/2;
         mergeSort(lb, mid);
         mergeSort(mid+1, ub);
@@ -55,12 +55,12 @@ int main()
     cin>>n;
     cout<<"Enter the elements : ";
     for (int i=0;i<n;i++){
-        cin>>A[i];
+        cin >> A[i];
     }
     mergeSort(0, n-1);
     cout<<"\nSorted Array : \n";
     for (int i=0;i<n;i++){
-        cout<<A[i];
+        cout << A[i];
     }
     return 0;
 }
