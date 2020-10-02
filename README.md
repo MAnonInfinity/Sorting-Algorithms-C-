@@ -1,4 +1,5 @@
-Some Sorting Algorithms in C++.
-Will keep updating with new aglorithms.
-Suggestions are appreciated
-Thank You!
+Some Sorting Algorithms in C++ for you all.
+
+We Will keep updating with new aglorithms and your suggestions are appreciated
+
+#### Thank You!
